@@ -1,6 +1,10 @@
 class Appointment
 
+<<<<<<< HEAD
     attr_reader :name, :doctor, :date
+=======
+    attr_accessor :name, :doctor, :date
+>>>>>>> 583845b1112bab978716203391ebbd1e75cfb485
 
     @@all = []
 
@@ -15,8 +19,13 @@ class Appointment
         @@all
     end
 
+<<<<<<< HEAD
     def patient
         self.name
+=======
+    def patients
+        self.patient
+>>>>>>> 583845b1112bab978716203391ebbd1e75cfb485
     end
 
     def doctors

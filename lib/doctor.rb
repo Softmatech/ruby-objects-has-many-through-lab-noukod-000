@@ -25,7 +25,11 @@ class Doctor
 
     def patients
         appointments.map do |appointment|
+<<<<<<< HEAD
           appointment.name
+=======
+          appointment.patients
+>>>>>>> 583845b1112bab978716203391ebbd1e75cfb485
         end
     end
 
